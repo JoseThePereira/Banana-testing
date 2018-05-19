@@ -1,0 +1,59 @@
+body{
+    background-color:white;
+}
+.card{
+    width: 150%;
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+    border: 0px solid white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    padding-top: 100px;
+    background-color: yellow;
+    
+        background-size: 600px 600px;
+        background-image: url("https://images.pexels.com/photos/40734/chicken-grilled-healthy-food-40734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-repeat: no-repeat;
+        background-position:center;     
+}
+.btn{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border-color: white;
+}
+
+h5{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 20px #010101;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 20px #010101;
+}
+
+.material-icons{
+    color: white;
+    text-shadow: 2px 2px 20px #010101;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.col-sm{
+    color: white;
+    text-shadow: 2px 2px 20px #010101;
+}
+
