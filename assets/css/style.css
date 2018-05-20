@@ -4,19 +4,26 @@ body{
 .card{
     width: 150%;
     margin: auto;
-    
+    margin-top: 50px;
     width: 50%;
     border: 0px solid white;
     padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 15px;
     padding-top: 100px;
-    background-color: yellow;
+    background-color:white;
     
         background-size: 600px 600px;
         background-image: url("https://images.pexels.com/photos/40734/chicken-grilled-healthy-food-40734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
         background-repeat: no-repeat;
         background-position:center;     
+}
+
+.card.card-2{
+        background-size: 600px 600px;
+        background-image: url("https://images.pexels.com/photos/14737/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-repeat: no-repeat;
+        background-position:center;
 }
 .btn{
     background-color: white;
@@ -57,3 +64,29 @@ a{
     text-shadow: 2px 2px 20px #010101;
 }
 
+.menu{
+    bottom: 0px;
+    position: fixed;
+    background-color: #010101;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.container{
+    align-content: center;  
+}
+
+.col-sm.c1{
+   width: 100px;
+   align-content: space-around;
+   text-align: center;
+   padding-left: 2%;
+   padding-right: 2%;
+   /* position: fixed; */
+   background-color: #010101;
+   
+}
